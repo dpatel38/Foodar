@@ -1,0 +1,148 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: 'Droid Serif', serif;
+	font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+	height: 100%;
+}
+
+section {
+	color: #000;
+}
+
+section.container {
+	min-height: 100%;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+header {
+	position: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+
+
+.width-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.underline {
+	height: 3px;
+	background: #eaeaea;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.heading{
+	text-align: center;
+}
+
+
+.heading-text{
+	font-family: 'Aguafina Script', cursive;
+	color: #ccad52;
+	font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+    line-height: 36px;  
+}
+
+.clear{
+	clear: both;
+}
+
+.how1 {
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+}
+
+.how1 p{
+  color: #565656;
+}
+
+.form-group {
+	margin: 2em 0 0;
+}
+
+.form-group input {
+	display: block;
+    margin: 0.3em;
+    padding: 0.4em;
+    font-size: 14pt;
+}
+
+.u-input{
+  width:47%;
+  float: left;
+  padding: 15px;
+}
+
+.u-input input{
+  width:90%;
+  padding:20px;
+  font-size: 14px;
+  background: #f3f3f3;
+  border:1px solid #f3f3f3;
+  border-radius: 6px;
+}
+
+.submit-btn{
+  background-color: #000;
+  color:#fff;
+  padding: 14px 25px !important;
+    border-radius: 6px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 20px !important;
+}
+.submit-btn:hover{
+  background-color: #ccad52;
+  color:#fff;
+}
+
+footer {
+	padding: 0em;
+    background: #202020;
+	color: white;
+	
+}
+ ul {
+	margin: 40px 30px 10px 20px;
+	padding:4px;
+	list-style: none;
+	
+}
+ li a {
+	text-decoration: none;
+	color: white;
+	
+	
+}
+a:hover {
+	color: #F7A700;
+}
+
+.copy {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
